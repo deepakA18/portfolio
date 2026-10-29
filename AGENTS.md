@@ -4,6 +4,10 @@
 
 Build a personal portfolio closely following https://leerob.com. The user explicitly dropped the guestbook and rejected the centered shud.in-like layout. Match Lee's current serif typography, a single left biography with no Default/Long controls, Notes and Blogs lists, and large right-side illustration. Do not add a guestbook. Preserve this reference direction over conflicting skill defaults. Do not invent biography, employment history, or projects; identify sample content clearly.
 
+## Repository structure
+
+The portfolio root is the user's primary Git repository. Track `site/` as ordinary source files, never as an embedded Git repository or gitlink. Do not initialize another repository inside `site/`. If the Sites publishing workflow needs its own repository, use a separate checkout outside this repository and synchronize the application source there. Deployment archives and `.git-backups/` are local-only and ignored.
+
 ## Requested frontend resources
 
 The user explicitly requested these resources. Read and apply their relevant instructions when resuming design, implementation, and verification. User instructions and the chosen reference sites take precedence over conflicting skill defaults.

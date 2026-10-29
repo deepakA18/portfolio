@@ -1,2 +1,5 @@
 .design-references/
 .playwright-cli/
+.git-backups/
+/portfolio-*.tar.gz
+.DS_Store
